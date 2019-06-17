@@ -49,5 +49,7 @@
   "ANID": "Account",
   "ENDDATE": "End date",
   "INTERESRATE": "% Interest",
-  "ACCOUNTTYPE": "Account type"
+  "ACCOUNTTYPE": "Account type",
+  "ACCOUNTNUMBER": "Account number",
+  "INTERESRATE_MONTHLY": "Monthly interest rate"
 }
