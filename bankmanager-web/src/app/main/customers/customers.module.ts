@@ -4,9 +4,11 @@ import { CommonModule } from '@angular/common';
 import { CustomersRoutingModule } from './customers-routing.module';
 import { OntimizeWebModule } from 'ontimize-web-ngx';
 import { CustomersHomeComponent } from './customers-home/customers-home.component';
+import { CustomersDetailComponent } from './customers-detail/customers-detail.component';
+import { CustomersNewComponent } from './customers-new/customers-new.component';
 
 @NgModule({
   imports: [CommonModule, OntimizeWebModule, CustomersRoutingModule],
-  declarations: [CustomersHomeComponent]
+  declarations: [CustomersHomeComponent, CustomersDetailComponent, CustomersNewComponent]
 })
 export class CustomersModule {}
