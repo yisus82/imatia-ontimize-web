@@ -8,9 +8,17 @@ import { AccountNumberRenderComponent } from './accounts-home/account-number-ren
 import { SharedModule } from 'app/shared/shared.module';
 import { AccountsDetailComponent } from './accounts-detail/accounts-detail.component';
 import { AccountsNewComponent } from './accounts-new/accounts-new.component';
+import { AddCustomerComponent } from './add-customer/add-customer.component';
+import { AddMovementComponent } from './add-movement/add-movement.component';
 
 @NgModule({
   imports: [CommonModule, OntimizeWebModule, SharedModule, AccountsRoutingModule],
-  declarations: [AccountsHomeComponent, AccountsDetailComponent, AccountsNewComponent]
+  declarations: [
+    AccountsHomeComponent,
+    AccountsDetailComponent,
+    AccountsNewComponent,
+    AddCustomerComponent,
+    AddMovementComponent
+  ]
 })
 export class AccountsModule {}
